@@ -5,47 +5,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../css/dropmenu.css">
+    <link rel="stylesheet" href="dropmenu.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
 
 </head>
 <body>
     <header class="header">
-    <h2>HOME</h2>
-    <h2>ABOUT</h2>
-    <h2>CONTACT</h2>
     <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">RECIPES</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Chicken</a>
-              <a href="#">Meat</a>
-              <a href="#">Salads</a>
-            </div>
-          </div>
-    
-    <div>
-        <h2>ARTICLE <span><img src="../images/icon_drop-down.svg" alt=""></span></h2>
+        <button onclick="window.location.reload(true)" class="dropbtn">RESET</button>
+        <!-- <a href="#" onclick="window.location.reload(true);">RESET</a> -->
     </div>
-    <h2>Share yours</h2>
-</header>
-<!-- <div class="container"></div> -->
-
-<main class="main flex">
-    <section id="over-view" class="flex">
-        <div class="tab flex">
-            <p>Overview</p>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">WIREFRAME</button>
+        <div id="myDropdown" class="dropdown-content">
+            <img src="/Test1/images/Wireframe.png">
         </div>
-        <div class="content">
-            <div class="container flex">
-                <div class="content-holder">
-                    <canvas id="mainCanvas"></canvas>
-                    <p id="player">0</p>
-                    <p id="enemy">0</p>
-                </div>
+    </div>
+    <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">AUTHOR</button>
+            <div id="myDropdown" class="dropdown-content">
+                <img src="/Test1/images/Omar.png">
             </div>
-        </div>
+    </div>
+</header>
 
-
+<main>
+<canvas id="mainCanvas"></canvas>
+<p id="player">0</p>
+<p id="enemy">0</p>
 </main>
 
 <script src="jquery-3.6.0.min.js"></script>
@@ -70,7 +57,7 @@
         }
     }
     }
-    </script>
+</script>
 
 </body>
 </html>
