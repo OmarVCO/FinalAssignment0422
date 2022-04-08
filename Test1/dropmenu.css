@@ -1,0 +1,164 @@
+/* Dropdown Button */
+.dropbtn {
+<<<<<<< HEAD
+    background-color: white;
+    color: 666666;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    margin-left: 20px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #eefff5;
+    color: 666666;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    border-color: white;
+=======
+  height: 100%;
+  margin: 40px;
+  background-color: white;
+  color: #666666;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+>>>>>>> f9a446891abe6dd71847650965f5742307c4cb8a
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #eefff5;
+  color: 666666;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+<<<<<<< HEAD
+    }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  /* Omar nutrition tags */
+  .nutrition-expanded {
+    display: block !important;
+    min-height: auto !important;
+  }
+
+  .inner{
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #1e282f;
+    text-align: center;
+    min-width: 64px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+  .span{
+    display: block;
+    padding-bottom: 6px;
+    line-height: 1;
+  }
+
+  .title1{
+ 
+    padding-bottom: 3px;
+  }
+
+  .content1{
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.percentage{
+    padding-top: 3px;
+}
+
+/* Addittional CSS for Omar Page */
+
+
+#serve-with .bg-img4 {
+    width: 200px;
+    height: 300px;
+    padding: 100px 0;
+    background-image: url(../images/images-omarfood/esparragus.jpeg);
+    background-size: cover;
+  }
+    #serve-with .bg-img5 {
+      width: 200px;
+      height: 300px;
+      padding: 100px 0;
+      background-image: url(../images/images-omarfood/fries.jpeg);
+      background-size: cover;
+    }
+    #serve-with .bg-img6 {
+      width: 200px;
+      height: 300px;
+      padding: 100px 0;
+      background-image: url(../images/images-omarfood/Original_Mac_n_Cheese_.jpg);
+      background-size: cover;
+    }
+  .revCooker{
+      width: 50%;
+  }
+=======
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px;
+  border-color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #eefff5;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+>>>>>>> f9a446891abe6dd71847650965f5742307c4cb8a

@@ -5,15 +5,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/dropmenu.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
 
 </head>
 <body>
-<div class="container">
-    <header class="tittle">
-        <h2>The games</h2>
-    </header>
-</div>
+    <header class="header">
+    <h2>HOME</h2>
+    <h2>ABOUT</h2>
+    <h2>CONTACT</h2>
+    <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">RECIPES</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Chicken</a>
+              <a href="#">Meat</a>
+              <a href="#">Salads</a>
+            </div>
+          </div>
+    
+    <div>
+        <h2>ARTICLE <span><img src="../images/icon_drop-down.svg" alt=""></span></h2>
+    </div>
+    <h2>Share yours</h2>
+</header>
+<!-- <div class="container"></div> -->
 
 <main class="main flex">
     <section id="over-view" class="flex">
@@ -35,6 +50,27 @@
 
 <script src="jquery-3.6.0.min.js"></script>
 <script src="script.js"></script>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+        }
+        }
+    }
+    }
+    </script>
 
 </body>
 </html>
