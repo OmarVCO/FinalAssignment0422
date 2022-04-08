@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+	 background: #eee;
+   width: 100vw;
+   color: #666666;
+   font-family: sans-serif, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0.6px;
+   background-image: url(/Test1/images/4072674.jpg);
+   background-position-y: 0px;
+   background-size: 100%vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 75px);
+  /* background-color: lightblue; */
+}
+section {
+  height: 100%;
+  width: 100%;
+}
+
+
+canvas {
+  position: absolute;
+  padding-top: 0 auto;
+  margin: 0 auto;
+  display: block;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+}
+p {
+	position: absolute;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+#player {
+	color: black;
+}
+
+#enemy {
+	color: red;
+	margin-top: 2em;
+}
