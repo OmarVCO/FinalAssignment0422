@@ -192,7 +192,7 @@ f3.add(window, 'bulletTimeout').min(100).max(3000).step(1);
 f3.add(window, 'enemySpeedX').min(1).max(10).step(1);
 f3.add(window, 'enemySpeedY').min(1).max(10).step(1);
 f3.add(window, 'enemyCreation').min(100).max(3000).step(1);
-f3.open();
+f3.close();
 
 function setKeysTo(e, state) {
 	if(e.keyCode == 37) {
